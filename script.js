@@ -4,8 +4,10 @@ const amount = document.getElementById('amount');
 const convertBtn = document.getElementById('convertBtn');
 const result = document.getElementById('result');
 
+
 // List of currencies to populate dropdowns
-const country_list = {
+
+const currencies = {
     AED: "AE",
     AFN: "AF",
     XCD: "AG",
@@ -205,4 +207,5 @@ convertBtn.addEventListener('click', () => {
       result.innerText = "Error fetching exchange rate.";
     });
 });
+
 
