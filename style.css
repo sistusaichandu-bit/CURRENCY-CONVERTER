@@ -38,19 +38,20 @@ h1 {
 }
 
 button {
-  background-color: #007bff;
+  background-color: #00001A;
   color: white;
   border: none;
   cursor: pointer;
 }
 
 button:hover {
-  background-color: #0056b3;
+  background-color: #55a68b;
 }
 
 #result {
   font-weight: bold;
   margin-top: 15px;
 }
+
 
 
