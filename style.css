@@ -1,6 +1,6 @@
 body {
   font-family: 'Segoe UI', sans-serif;
-  background-color: #f4f7fa;
+  background-color: #D2691E;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -52,3 +52,4 @@ button:hover {
   font-weight: bold;
   margin-top: 15px;
 }
+
