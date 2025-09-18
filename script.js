@@ -5,7 +5,8 @@ const convertBtn = document.getElementById('convertBtn');
 const result = document.getElementById('result');
 
 // List of currencies to populate dropdowns
-
+const currencies = ["USD", "EUR", "GBP", "INR", "JPY", "CAD", "AUD", "CHF", "CNY", "ZAR" , "SGD" , "RUB" , "QAR" , "NZD" , "AED"];
+currencies.push("SGD" , "RUB" , "QAR" , "NZD" , "AED");
 
 currencies.forEach(currency => {
   const option1 = document.createElement("option");
